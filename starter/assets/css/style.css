@@ -1,0 +1,54 @@
+/* Fonts */
+
+
+/* CSS Variables */
+:root {
+    --font-family: "Rubik", sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+    --color-text: #201E20;
+    --color-background: #ffffff;
+    --color-primary: #201E20;
+    --color-primary-hover: #3f3e3f;
+    --color-header-footer-text: #fff;
+    --spacing-base: 20px;
+    --border-radius: 100px;
+    --hero-padding: 100px 0;
+    --hero-color-text: #fff;
+    --hero-h1-size: 2.5rem;
+    --hero-p-size: 1.25rem;
+    --text-p-highlight: #E32F6C;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--color-text);
+    background-color: var(--color-background);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: var(--spacing-base);
+
+}
+
+/* Links */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
